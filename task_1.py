@@ -1,4 +1,4 @@
 def convert_to_uah(amount, rate=41.5):
     amount/=rate
     return abs(round(amount,2))
-print(convert_to_uah(-200,40))
+print(f"{convert_to_uah(-200,40)}")

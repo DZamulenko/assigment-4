@@ -13,4 +13,4 @@ def get_grade(score):
             std_ratings.append('F')
     return std_ratings
 scores = [95, 45, 78, 82, 60]
-print(get_grade(scores))
+print(f"{get_grade(scores)}")
